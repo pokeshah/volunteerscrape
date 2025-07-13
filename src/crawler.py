@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 def get_webpage_content(url: str) -> str:
     try:
         headers = {
-            'User-Agent': 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GoodEra/0.0.1;) Chrome/W.X.Y.Z Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; 0.0.1;) Chrome/W.X.Y.Z Safari/537.36'
         }
         response = requests.get(url, headers=headers, timeout=10, verify=False)
         response.raise_for_status()  # Raise an HTTPError for bad responses (4xx or 5xx)
