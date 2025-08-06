@@ -1,0 +1,5 @@
+volunteermatch.org:
+  crawler: "get"
+  instructions:
+    include: "#content_opp_details"
+    exclude: "#opp_det_actions, .hvr-o, .addthis_inline_share_toolbox, .related_opportunities_list, .vm-form-container, .back-to-search, div[class*='feedback']"

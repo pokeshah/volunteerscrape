@@ -1,0 +1,3 @@
+Extract volunteer opportunity information from the content below.
+
+{content}
