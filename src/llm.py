@@ -60,9 +60,3 @@ def llm(content: str, url: str, model_name: str = "gemini") -> dict:
     extracted_data = tool_call["args"]
     extracted_data['url'] = url
     return extracted_data
-
-#send full content from extension to flask
-#add llm prompt to extract the filter from content
-#extract the original content with the filter
-#pass the extracted content to llm.py
-#return filter, final attributes
